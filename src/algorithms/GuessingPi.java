@@ -29,7 +29,10 @@ public class GuessingPi {
 		// yourStringVariable.length()
 for(int i=0; i<pi.length();i++) {
 	String ans =JOptionPane.showInputDialog("Whats the next digit?");
-	if{
+	if( ans.equals( pi.charAt(i)+"")){
+		JOptionPane.showMessageDialog(null, "Good job!");
+	}
+
 }
 
 }
